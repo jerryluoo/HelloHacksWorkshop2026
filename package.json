@@ -1,6 +1,32 @@
 {
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
     "tailwindcss": "^4.3.3"
+  },
+  "name": "hellohacksworkshop2026",
+  "version": "1.0.0",
+  "description": "This is the starter version of the Hello Hacks Workshop. We've created folders for the backend code and the frontend code that you can start with.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerryluoo/HelloHacksWorkshop2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jerryluoo/HelloHacksWorkshop2026/issues"
+  },
+  "homepage": "https://github.com/jerryluoo/HelloHacksWorkshop2026#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
